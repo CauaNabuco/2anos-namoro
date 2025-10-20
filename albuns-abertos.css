@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.titulo{
+    padding: 2rem;
+    text-align: center;
+}
+body{
+    background-color: #FFF2E7;
+    color: #b28433;
+    font-family: "Sarala", serif;
+    font-weight: 400;
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background: linear-gradient(68.15deg, #22300b 16.62%,  #76993d 85.61%);
+   
+    
+}
+.logo{
+    height: 72px;
+    height: 72px;
+    border-radius: 50%;
+   
+}
+.menu{
+    display: flex;
+    gap: 32px;
+}
+.menu-item{
+    font-family: "Sarala", serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+#menu-item-album{
+    font-family: "Sarala", serif;
+    color: #e98839;
+    border-bottom: 0.4px solid #e98839;
+    font-weight: 400;
+    font-size: 18px;
+}
+.titulo{
+
+    padding: 2rem;
+    text-align: center;
+}
+.conteudo{
+    display: flex;
+    padding: 1rem 4rem 4rem 4rem ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.foto:target .detalhes{
+    display: block;
+}
+.foto:target{
+    position: fixed;
+    width: 30%;
+    height: 86%;
+    top: 10px;
+    left: 32%;
+    padding: 10px 10px 10px 10px;
+    border: solid 1px #333 ;
+    box-shadow: 0 0 25px 10px #000;
+    background-color: bisque;
+    border-radius: 5px;
+}
+.foto img:target{
+    width: 100px;
+}
+.foto{
+    height: 400px;
+    width: 300px;
+    margin: 1.5rem;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.37) 0px 8px 24px;
+    transition: 0.2s;
+}
+
+.foto img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+.detalhes{
+    display: none;
+}
+.rodape{
+    padding: 5px;
+    border-top: 0.4px solid #FFF2E7;
+    background: linear-gradient(68.15deg, #22300b 16.62%,  #76993d 85.61%);
+    
+}
+.img-rodape{
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-left: 2000;
+}
+.menu-item:hover{
+    color: #e98839;
+}
+#menu-item-album:hover{
+    color: #f19c56;
+    border-bottom:none;
+}
