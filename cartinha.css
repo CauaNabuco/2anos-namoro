@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #FFF2E7;
+    color: #b28433;
+    font-family: "Sarala", serif;
+    font-weight: 400;
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background: linear-gradient(68.15deg, #22300b 16.62%,  #76993d 85.61%);
+   
+    
+}
+.logo{
+    height: 72px;
+    height: 72px;
+    border-radius: 50%;
+   
+}
+.menu{
+    display: flex;
+    gap: 32px;
+}
+.menu-item{
+    font-family: "Sarala", serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+#menu-item-cartinha{
+    font-family: "Sarala", serif;
+    color: #e98839;
+    border-bottom: 0.4px solid #e98839;
+    font-weight: 400;
+    font-size: 18px;
+}
+.titulo{
+    padding: 2rem;
+    text-align: center;
+}
+.cartinha{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: "Sarala", serif;
+    font-size: 19px;
+}
+
+.rodape{
+    padding: 5px;
+    border-top: 0.4px solid #FFF2E7;
+    background: linear-gradient(68.15deg, #22300b 16.62%,  #76993d 85.61%);
+    
+}
+.img-rodape{
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-left: 2000;
+}
+.momentos{
+  
+    align-items: center;
+    height: 150px;
+    border-radius: 20%;
+   margin-left: 45px;
+   margin-bottom: 20px;
+   padding: 1ram;
+   align-items: center;
+   border: 1px solid #8e5d52;
+}
+.final{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: "Sarala", serif;
+    font-size: 19px;
+    color: #8e5d52;
+}
+.menu-item:hover{
+    color: #e98839;
+}
+#menu-item-cartinha:hover{
+    color: #f19c56;
+    border-bottom:none;
+}

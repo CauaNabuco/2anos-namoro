@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #FFF2E7;
+    color:  #b28433;
+    font-family: "Sarala", serif;
+    font-weight: 400;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+   
+    
+}
+.logo{
+    height: 72px;
+    height: 72px;
+    border-radius: 50%;
+   
+}
+.menu{
+    display: flex;
+    gap: 32px;
+}
+.menu-item{
+    font-family: "Sarala", serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+#menu-item-historia{
+    font-family: "Sarala", serif;
+    color: #e98839;
+    border-bottom: 0.4px solid #e98839;
+    font-weight: 400;
+    font-size: 18px;
+}
+.titulo{
+    padding: 2rem;
+    text-align: center;
+}
+.conteudo{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: "Sarala", serif;
+    font-size: 19px;
+   
+}
+
+.rodape{
+    padding: 5px;
+    border-top: 0.4px solid #FFF2E7;
+    background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+    
+}
+.img-rodape{
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-left: 2000;
+}
+main{
+    margin-bottom: 300px;
+}
+.abrir{
+    margin-top: 12px;
+    background-color: #9e948b;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 20%;
+   margin-left: 577px;
+   
+}
+summary{
+    color:#857b6f;
+    cursor: pointer;
+}
+.presente{
+    height: 372.5px;
+   
+}
+.instrucao{
+    margin-top: 12px;
+    background-color: #9e948b;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 19%;
+   margin-left: 610px;
+   text-align: center;
+}
+ol{
+    margin-left: 20px;
+    color: #857b6f;
+}
+.modelo{
+    margin-top: 12px;
+    background-color: #9e948b;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 19%;
+   margin-left: 610px;
+   text-align: center;
+  
+}
+.menu-item:hover{
+    color: #e98839;
+}

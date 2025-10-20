@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #FFF2E7;
+    color: #b28433;
+    font-family: "Sarala", serif;
+    font-weight: 400;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background: linear-gradient(68.15deg, #22300b 16.62%,  #76993d 85.61%);
+   
+    
+}
+.logo{
+    height: 72px;
+    height: 72px;
+    border-radius: 50%;
+   
+}
+.menu{
+    display: flex;
+    gap: 32px;
+}
+.menu-item{
+    font-family: "Sarala", serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+#menu-item-quiz{
+    font-family: "Sarala", serif;
+    color: #e98839;
+    border-bottom: 0.4px solid #e98839;
+    font-weight: 400;
+    font-size: 18px;
+}
+.introducao{
+    padding: 2rem;
+    text-align: center;
+}
+main{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: "Sarala", serif;
+    
+    
+}
+.conteudo{
+ margin-left: 100px;
+ margin-bottom: 48px;
+ 
+
+}
+h3{
+    font-size: 1.5rem;
+}
+input[type="radio"]
+{
+    accent-color: #a52f2f;
+}
+.medio[type="radio"]
+{
+    accent-color: #b69f21;
+}
+
+input[type="checkbox"] 
+{
+    accent-color: #608e52;
+}
+
+.Medio[type="text"]
+{
+    outline-color: #cbbe0f;
+    width: 70%;
+    padding: 0.2rem;
+    border: 2px solid #b28433;
+    border-radius: 5px;
+}
+.Dificil[type="text"]
+{
+    outline-color: #a52f2f;
+    width: 70%;
+    padding: 0.2rem;
+    border: 2px solid #b28433;
+    border-radius: 5px;
+  
+}
+.Facil[type="text"]
+{
+    outline-color: #608e52;
+    width: 70%;
+    padding: 0.2rem;
+    border: 2px solid #b28433;
+    border-radius: 5px;
+    
+}
+input::placeholder{
+    color: #b28433;
+}
+input[type="password"] 
+{
+    outline-color: #cbbe0f;
+    width: 70%;
+    padding: 0.2rem;
+    border: 2px solid #b28433;
+    border-radius: 5px;
+}
+input[type="date"] 
+{
+    outline-color: #cbbe0f;
+    width: 70%;
+    padding: 0.2rem;
+    border: 2px solid #b28433;
+    border-radius: 5px;
+}
+select{
+
+    cursor: pointer;
+    background-color: #e8bf79;
+    color: #392e2f;
+    border-radius: 5px;
+    border: #a4834a;
+    outline: none;
+    width: 10%;
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+}
+th{
+  background-color: #e8bf79;
+  color: #2f2325;
+  padding: 0.5rem;
+}
+td{
+    color: #2f2325;
+    padding: 0.5rem;
+    text-align: center;
+}
+details{
+    background-color: #e8bf79;
+    border-radius: 5px;
+    padding: 0.3rem;
+    width: 20%;
+}
+
+summary{
+    color: #2f2325;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+ol{
+    margin-left:1.5rem;
+}
+.rodape{
+    padding: 5px;
+    border-top: 0.4px solid #FFF2E7;
+    background: linear-gradient(68.15deg, #22300b 16.62%,  #76993d 85.61%);
+    
+}
+.img-rodape{
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-left: 2000;
+}
+.menu-item:hover{
+    color: #e98839;
+}
+#menu-item-quiz:hover{
+    color: #f19c56;
+    border-bottom:none;
+}

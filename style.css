@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #22300b 16.62%,  #76993d 85.61%);
+    
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+.logo{
+    height: 72px;
+    height: 72px;
+    border-radius: 50%;
+   
+}
+.menu{
+    display: flex;
+    gap: 32px;
+}
+.menu-item{
+    font-family: "Sarala", serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+.conteudo{
+ margin-bottom: 48px;
+ border-top: 0.4px solid #FFF2E7;
+ 
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 24;
+   
+}
+.conteudo-principal-escrito-titulo{
+    font-family: "Righteous", serif;
+    font-weight: 400;
+    font-size: 44px;
+    color: #FFF2E7;
+}
+.conteudo-principal-escrito-subtitulo{
+    font-family: "Sarala", serif;
+    color: #ecd6c4;
+    font-weight: 400;
+    font-size: 14px;
+}
+.conteudo-principal-imagem{
+    height: 350px;
+    border-radius: 50%;
+    border:5px solid#FFF2E7; 
+    margin-top: 30px;
+    
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteudo-secundario-titulo{
+    border-top: 0.4 solid #FFF2E7;
+    padding-top: 48px;
+    font-family: "Righteous", serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+}
+.conteudo-secundario-lista{
+    font-family: "Sarala", serif;
+    color: #ecd6c4;
+    font-weight: 300;
+    font-size: 14px;
+}
+#clique-aqui{
+    font-family: "Sarala", serif;
+    color: #e98839;
+    font-weight: 400;
+    font-size: 14px;
+}
+#list{
+    color: #ecd6c4;
+}
+#espero-que-goste{
+    font-family: "Sarala", serif;
+    color: #FFF2E7;
+    font-size: 15px;
+}
+.rodape{
+    padding: 5px;
+    border-top: 0.4px solid #FFF2E7;
+}
+.img-rodape{
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+}
+.menu-item:hover{
+    color: #e98839;
+}
